@@ -1,0 +1,30 @@
+{"level":30,"msg":"Queuing install for Monocraft - https://idreesinc.itch.io/monocraft","name":"butler","time":1708883936177}
+{"level":30,"msg":"Generated fresh cave ce7cb2e2-c64d-4166-848c-e52fdd1be928","name":"butler","time":1708883936177}
+{"level":30,"msg":"Upload specified:","name":"butler","time":1708883936177}
+{"level":30,"msg":"  ☁ Monocraft.ttf :: Unknown size :: #7081787","name":"butler","time":1708883936177}
+{"level":30,"msg":"    Other :: No platforms","name":"butler","time":1708883936177}
+{"level":30,"msg":"Upload is not wharf-enabled","name":"butler","time":1708883936424}
+{"level":30,"msg":"→ Performing install for Monocraft - https://idreesinc.itch.io/monocraft","name":"butler","time":1708883936879}
+{"level":30,"msg":"    to (C:\\Users\\vlast\\Documents\\ampli\\catacombs\\Assets\\ui\\monocraft)","name":"butler","time":1708883936879}
+{"level":30,"msg":"    via (C:\\Users\\vlast\\Documents\\ampli\\catacombs\\Assets\\ui\\downloads\\steadily-balanced-pika)","name":"butler","time":1708883936879}
+{"level":20,"msg":"Locking (C:\\Users\\vlast\\Documents\\ampli\\catacombs\\Assets\\ui\\monocraft\\.itch\\runlock.json) for install","name":"butler","time":1708883936880}
+{"level":30,"msg":"No receipt found.","name":"butler","time":1708883936884}
+{"level":30,"msg":"→ Starting fresh download session (ac87071e-dbd2-4bbc-938a-171bf386eb79)","name":"butler","time":1708883937070}
+{"level":30,"msg":"← No previous install info (no recorded upload or build)","name":"butler","time":1708883937070}
+{"level":30,"msg":"→ To be installed:","name":"butler","time":1708883937070}
+{"level":30,"msg":"  ☁ Monocraft.ttf :: Unknown size :: #7081787","name":"butler","time":1708883937070}
+{"level":30,"msg":"    Other :: No platforms","name":"butler","time":1708883937070}
+{"level":30,"msg":"(opening file took 678.5412ms)","name":"butler","time":1708883937749}
+{"level":40,"msg":"Dealing with an external upload (from github.com), all bets are off.","name":"butler","time":1708883937749}
+{"level":40,"msg":"Forcing download before we check anything else.","name":"butler","time":1708883937750}
+{"level":30,"msg":"⇓ Pre-allocating 198.01 KiB on disk","name":"butler","time":1708883937750}
+{"level":30,"msg":"↻ Resuming @ 0 B","name":"butler","time":1708883937752}
+{"level":20,"msg":"      size pass (202764 bytes)","name":"butler","time":1708883937793}
+{"level":30,"msg":"Determining source information...","name":"butler","time":1708883937807}
+{"level":30,"msg":"↝ For source (Monocraft.ttf)","name":"butler","time":1708883937807}
+{"level":40,"msg":"  No mapping for file extension (.ttf)","name":"butler","time":1708883937807}
+{"level":30,"msg":"Estimated disk usage (accuracy: guess)","name":"butler","time":1708883937808}
+{"level":30,"msg":"  ✓ 455.43 KiB needed free space","name":"butler","time":1708883937808}
+{"level":30,"msg":"  ✓ 257.42 KiB final disk usage","name":"butler","time":1708883937808}
+{"level":30,"msg":"Will use installer unknown","name":"butler","time":1708883937813}
+{"level":50,"msg":"No manager for installer unknown\ngithub.com/itchio/butler/cmd/operate.doInstallPerformInner.func1\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/cmd/operate/install_perform.go:266\ngithub.com/itchio/butler/cmd/operate.InstallPrepare\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/cmd/operate/install_prepare.go:264\ngithub.com/itchio/butler/cmd/operate.doInstallPerformInner\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/cmd/operate/install_perform.go:202\ngithub.com/itchio/butler/cmd/operate.doInstallPerform\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/cmd/operate/install_perform.go:137\ngithub.com/itchio/butler/cmd/operate.InstallPerform\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/cmd/operate/install_perform.go:40\ngithub.com/itchio/butler/endpoints/downloads.performOne.func8\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/endpoints/downloads/downloads_drive.go:331\ngithub.com/itchio/butler/endpoints/downloads.performOne\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/endpoints/downloads/downloads_drive.go:336\ngithub.com/itchio/butler/endpoints/downloads.DownloadsDrive\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/endpoints/downloads/downloads_drive.go:76\ngithub.com/itchio/butler/butlerd/messages.(*DownloadsDriveType).Register.func1\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/butlerd/messages/messages.go:2582\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest.func2\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/butlerd/router.go:306\ngithub.com/itchio/butler/butlerd.(*Router).HandleRequest\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/butlerd/router.go:315\ngithub.com/itchio/butler/butlerd.(*gatedHandler).HandleRequest\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/butlerd/butlerd.go:159\ngithub.com/itchio/butler/butlerd/jsonrpc2.(*connImpl).handleIncomingMessage.func1\n\tC:/msys64/home/amos/gitlab/builds/v4hXCzbZ/1/itchio/butler/butlerd/jsonrpc2/jsonrpc2.go:250\nruntime.goexit\n\tc:/go/src/runtime/asm_amd64.s:1373","name":"butler","time":1708883937818}
