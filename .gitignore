@@ -95,3 +95,4 @@ fmod_editor.log
 /Assets/Plugins/FMOD/Cache/Editor.meta
 *.vsconfig
 arcade build/
+Packages/xyz.staggartcreations.skyboxes/
