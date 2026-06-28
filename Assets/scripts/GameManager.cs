@@ -54,13 +54,19 @@ public class GameManager : MonoBehaviour
     {
         if (slowTime == true && Time.timeScale >= 0.02f)
         {
-            Time.timeScale -= 0.015f;
+            Time.timeScale -= 0.03f;
+        }
+        else if (slowTime == true)
+        {
+            Time.timeScale = 0f;
         }
 
         if (player.position.y < 0.4f)
         {
             Gameover();
         }
+
+        Debug.Log(Time.timeScale);
     }
 
     public void loadMainMenu()

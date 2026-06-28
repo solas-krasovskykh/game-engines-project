@@ -1192,8 +1192,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: cubeMovement, Assembly-CSharp
+      - m_Target: {fileID: 1576847482}
+        m_TargetAssemblyTypeName: CubeMovement, Assembly-CSharp
         m_MethodName: PastFinishLine
         m_Mode: 1
         m_Arguments:
@@ -1216,7 +1216,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 255136593}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1228,7 +1228,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1425628652}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1240,7 +1240,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1915165209}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -4138,6 +4138,7 @@ MonoBehaviour:
   player: {fileID: 9205915046638997759}
   offset: {x: -0.5, y: 4, z: 6}
   liftCameraOffset: 0.5
+  liftCameraSpeed: 0
 --- !u!1 &975103613
 GameObject:
   m_ObjectHideFlags: 0
@@ -6397,6 +6398,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 9205915046638997763}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7041146524219145500}
+        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
+        m_MethodName: Sleep
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1438945809
 Transform:
   m_ObjectHideFlags: 0
@@ -8576,6 +8601,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9217284327674342618, guid: 36763639b9e182c4ba5fbe6c82cdd419, type: 3}
   m_PrefabInstance: {fileID: 1914362498}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1915165209 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7180258967509360992, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+  m_PrefabInstance: {fileID: 7041146524219145499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1930019506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9961,6 +9991,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+--- !u!54 &7041146524219145500 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 8171635668357725945, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+  m_PrefabInstance: {fileID: 7041146524219145499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7307852100021302937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10030,6 +10065,11 @@ Transform:
 --- !u!4 &9205915046638997759 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1867591702377743553, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+  m_PrefabInstance: {fileID: 7041146524219145499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9205915046638997763 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 835224026525447315, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
   m_PrefabInstance: {fileID: 7041146524219145499}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
