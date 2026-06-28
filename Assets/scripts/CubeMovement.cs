@@ -60,7 +60,7 @@ public class CubeMovement : MonoBehaviour
 
         if (Input.GetKey("w") || Input.GetKey("up") || Input.GetKey("space"))
         {
-            if (transform.position.y <= 1.1f && transform.position.y >= 1f)
+            if (transform.position.y <= 0.6f && transform.position.y >= 0.5f)
             {
                 rb.AddForce(0, 100f * Time.fixedDeltaTime, 0, ForceMode.VelocityChange);
             }

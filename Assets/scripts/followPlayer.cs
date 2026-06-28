@@ -6,7 +6,8 @@ public class followPlayer : MonoBehaviour
 {
     public Transform player;
     public Vector3 offset = new Vector3(0, 1, 6);
-    public float liftCameraOffset = 0.5f;
+    public float liftCameraOffset = 0.75f;
+    public float liftCameraSpeed;
 
     private bool liftCamera = false;
     private float leftToLift;
@@ -14,14 +15,16 @@ public class followPlayer : MonoBehaviour
     private void Start()
     {
         leftToLift = liftCameraOffset;
+        liftCameraSpeed = 0.015f;
     }
 
     void Update()
     {
         if (liftCamera == true && leftToLift > 0)
         {
-            offset.y += 0.002f;
-            leftToLift -= 0.002f;
+            offset.y += liftCameraSpeed;
+            leftToLift -= liftCameraSpeed;
+            liftCameraSpeed *= 0.975f;
         }
 
         transform.position = player.position + offset;

@@ -52,12 +52,12 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (slowTime == true && Time.timeScale >= 0.002f)
+        if (slowTime == true && Time.timeScale >= 0.02f)
         {
-            Time.timeScale -= 0.002f;
+            Time.timeScale -= 0.015f;
         }
 
-        if (player.position.y < 0.5f)
+        if (player.position.y < 0.4f)
         {
             Gameover();
         }

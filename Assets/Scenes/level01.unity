@@ -597,13 +597,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 835224026525447315, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 835224026525447315, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b1fb5d9fcddf7184b8f0d3da20289d86, type: 2}
+    - target: {fileID: 835224026525447315, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1867591702377743553, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1867591702377743553, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1867591702377743553, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
       propertyPath: m_LocalPosition.z
@@ -641,13 +653,17 @@ PrefabInstance:
       propertyPath: ObstacleCollisionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1438945808}
+    - target: {fileID: 4187809050794316202, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8000516327135901033, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
       propertyPath: m_Center.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8219816323623483684, guid: d4dbc5e09c007f940a5a0a9f7cb49087, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2791,7 +2807,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.99607843, g: 0.7176471, b: 0.3529412, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2850,13 +2866,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.11417198, y: -0.8726091, z: 0.4069035, w: -0.24484242}
+  m_LocalRotation: {x: 0.36964378, y: 0.23911767, z: -0.09904577, w: 0.89239913}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -211.347, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 30, z: 0}
 --- !u!1 &709226354
 GameObject:
   m_ObjectHideFlags: 0
@@ -4322,7 +4338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 942418140}
-  offset: {x: 0, y: 4, z: 6}
+  offset: {x: -0.5, y: 4, z: 6}
   liftCameraOffset: 0.5
 --- !u!4 &994579173 stripped
 Transform:
@@ -5259,8 +5275,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 146}
-  m_SizeDelta: {x: 200, y: -550}
+  m_AnchoredPosition: {x: 0, y: 210.5}
+  m_SizeDelta: {x: 200, y: -421}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1191749515
 MonoBehaviour:
