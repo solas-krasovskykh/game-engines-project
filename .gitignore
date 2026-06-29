@@ -96,3 +96,4 @@ fmod_editor.log
 *.vsconfig
 arcade build/
 Packages/xyz.staggartcreations.skyboxes/
+dino build/

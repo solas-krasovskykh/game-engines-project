@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
 
@@ -15,9 +15,7 @@ public class CubeMovement : MonoBehaviour
 
     private void Start()
     {
-        //rb.AddForce(0, 0, -forwardForce * Time.deltaTime, ForceMode.VelocityChange);
         rb.velocity = new Vector3(0, 0, -forwardForce);
-        Debug.Log("starting force added");
     }
 
     void FixedUpdate()
@@ -42,9 +40,6 @@ public class CubeMovement : MonoBehaviour
 
             return;
         }
-
-
-        //rb.AddForce(0, 0, -forwardForce * Time.fixedDeltaTime, ForceMode.VelocityChange);
 
         rb.AddForce(-transform.position.x * sidewaysHelpingForce * Time.fixedDeltaTime, 0, 0);
 
